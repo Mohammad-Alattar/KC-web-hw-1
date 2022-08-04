@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Noto+Kufi+Arabic&display=swap');
+body {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight:bold;
+}
+@keyframes index {
+    0%   {background-color: green;}
+    25%  {background-color: brown;}
+    50%  {background-color: green;}
+    100% {background-color: brown;}
+}
+.text-title {
+    list-style: inside;
+}
+.title {
+    text-align: center;
+}
+.image {
+    height: auto;
+    width: 250px;
+}
+.game-title {
+    text-align: center;
+    color: brown;
+    background-image: url(/assests/images/minecraft.webp);
+    width: 1000px;
+    font-size: large;
+    margin: auto;
+}
+.index {
+    animation: index 5s linear infinite;
+}
